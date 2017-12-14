@@ -1,0 +1,27 @@
+.column_container section.fixed {
+    width: 15rem;
+    background-color: blue;
+    color: yellow;
+    padding: 1rem;
+}
+
+.column_container section.flex {
+    background-color:white;
+    padding: 1rem;
+    border-right: 0.2rem solid black;
+}
+
+.column_container {
+
+    display: flex;
+    flex-wrap: wrap;
+}
+
+
+/* --- flex --- */
+.column_container section.flex {
+
+    flex: 1 0 200px;
+    padding: 10px;
+    display: inline;
+}

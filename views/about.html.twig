@@ -1,0 +1,85 @@
+
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>MGW -  {{ pageTitle }} page</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="layout.css">
+    <link rel="stylesheet" href="about.css">
+</head>
+<body>
+<div id="header">
+    <h1>Abouts Page</h1>
+    
+
+</div>
+
+<div id="nav">
+    <ul>
+        <li><a href="/">Home</a></li>
+        <li><a href="/?action=about">About</a></li>
+        <li><a href="/?action=members">Members</a></li>
+        <li><a href="/?action=summary">Summary</a></li>
+        <li><a href="/?action=contact">Contact Us</a></li>
+        <li><a href="/?action=news">News</a></li>
+        <li><a href="/?action=info">Info</a></li>
+    </ul>
+</div>
+
+<div id="section">
+<?php
+//--------------------------------
+require_once 'home.php';
+//--------------------------------
+?>
+
+<form
+        action="/?action=processLogin"
+        method="post"
+        >
+</form>
+
+
+
+</div>
+
+
+
+
+
+
+<! -----------------------Left Section---------------->
+<div id="aside">
+    <h1>Login Details</h1>
+    <p>
+    <form>
+
+        <fieldset>
+            <legend>Login Details</legend>
+
+            username: <input type="text" name="username"><br><br>
+
+
+
+            password: <input type="password" name="password"><br><br>
+
+            <input type="submit" value="login">
+        </fieldset>
+
+
+    </form>
+    </p>
+
+</div>
+
+
+
+
+<div id="footer">
+    Footer of the page
+</div>
+
+</body>
+</html>

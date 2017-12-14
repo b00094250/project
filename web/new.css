@@ -1,0 +1,31 @@
+.column_container {
+    display: flex;
+}
+
+.column_container header {
+    flex: 1;
+    background-color: firebrick;
+    border: 0.1rem solid;
+    padding: 1rem;
+    width: 30%;
+}
+
+.column_container section {
+    flex: 1;
+
+    background-color: firebrick;
+    border: 0.1rem solid;
+    padding: 1rem;
+
+    width: 20px;
+}
+
+
+.column_container section.photo {
+    text-align: center;
+}
+
+
+
+
+
